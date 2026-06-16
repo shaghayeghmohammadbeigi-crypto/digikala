@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: yekan;
+    src: url(../fonts/fa/Yekan.ttf);
+}
+
+:root {
+    --font-family: yekan;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+}
+
+.swiper-navigation-icon {
+    width: 10px !important;
+    height: 10px !important;
+
+    path {
+        fill: black;
+
+    }
+}
+
+.swiper-button-disabled {
+    display: none !important;
+}
+
+.swiper-pagination-bullet {
+    width: 5px;
+    height: 5px;
+}
+
+.swiper-pagination-bullet-active {
+    width: 30px;
+    height: 5px;
+    background-color: white;
+    border-radius: none;
+    border-radius: 3px;
+    transition: 300ms;
+}

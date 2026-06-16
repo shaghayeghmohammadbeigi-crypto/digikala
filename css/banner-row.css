@@ -1,0 +1,32 @@
+.banner-row{
+    width: 100%;
+    height: 265px;
+    margin-bottom: 20px;
+}
+.banner-row .banner-row-center{
+    max-width: 1330px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.banner-row .banner-row-center .banner-image-right{
+    width: 660px;
+    height: 100%;
+    border-radius: 16px;
+    margin-left: 16px;
+    overflow: hidden;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.banner-row .banner-row-center .banner-image-left{
+    width: 660px;
+    height: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}

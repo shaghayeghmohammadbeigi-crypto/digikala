@@ -1,0 +1,108 @@
+.amazing{
+    width: 100%;
+    height: 110px;
+}
+.amazing .amazing-center{
+    max-width: 1330px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #ECEEEE;
+    border-radius: 16px;
+    overflow: hidden;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.amazing .amazing-center .amazing-center-right{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.amazing .amazing-center .amazing-center-right .amazing-image{
+    width: 66px;
+    height: 62px;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.amazing .amazing-center .amazing-center-right .amazing-price{
+    width: 111px;
+    height: 28px;
+    padding: 2px 12px;
+    background-color: #029A49;
+    border-radius: 20px;
+    p{
+        font-family: var(--font-family);
+        font-size: 14px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
+.amazing .amazing-center .amazing-center-left{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+.amazing .amazing-center .amazing-center-left .image-item-left{
+    width: 492px;
+    height: 74px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    position: relative;
+    .images{
+        width: 74px;
+        height: 74px;
+        background-color: #FFFFFF;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        padding: 8px;
+        img{
+            width: 58px;
+            height: 58px;
+            border: none;
+        }
+    }
+}
+.amazing .amazing-center .amazing-center-left .image-item-left .image-price{
+    width: 34px;
+    height: 20px;
+    background-color: #D32F2F;
+    margin-top: 50px;
+    border-radius: 16px;
+    text-align: center;
+    position: absolute;
+    z-index: 1; 
+    h5{
+        font-family: var(--font-family);
+        font-size: 12px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
+.amazing .amazing-center .amazing-center-left .amazing-button-left{
+    padding: 12px 20px;
+    margin-left: 2px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+    column-gap: 10px;
+    p{
+        font-family: var(--font-family);
+        font-size: 14px;
+        text-align: center;
+        color: #029A49;
+    }
+    svg{
+        color: #029A49;
+    }
+}

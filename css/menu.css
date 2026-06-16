@@ -1,0 +1,8 @@
+body{
+    height: 100vh;
+}
+.submenu{
+    width: 70%;
+    height: 80vh;
+    background-color: #2b2b2b;
+}
